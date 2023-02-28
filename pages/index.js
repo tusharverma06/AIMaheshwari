@@ -46,6 +46,7 @@ return (
     <div className="root">
       <Head>
         <title>AI Maheshwari 🤖</title>
+  <link rel='icon' href='https://static.vecteezy.com/system/resources/previews/004/181/121/original/competence-motivation-gradient-icon-for-dark-theme-learning-new-skills-techniques-successfully-masters-tasks-thin-line-color-symbol-modern-style-pictogram-isolated-outline-drawing-vector.jpg' />
       </Head>
       <div className="container">
         <div className="header">
