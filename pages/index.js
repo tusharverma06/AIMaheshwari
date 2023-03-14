@@ -64,6 +64,9 @@ return (
           className="prompt-box" 
           value={userInput}
   onChange={onUserChangedText}
+onKeyUp={(e)=>{
+    e.key==='Enter' && callGenerateEndpoint()
+  }}
           />
         <button className="generateButton" onClick={callGenerateEndpoint}>    {isGenerating ? <span className="loader"></span> : 'Get Motivation'}
 </button>
