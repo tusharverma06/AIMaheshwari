@@ -266,6 +266,117 @@ flex-direction: column;
 .img3{
     width: 70px;
 }
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    margin: 4rem auto;
+ color: white;
+ border-radius: 20px;
+ background-color: rgba(255, 255, 255, 0.105);   
+}
+.socials{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+}
+.socials h2{
+    color: #FFF;
+}
+.socials h2 span a{
+    color: #00acee;
+}
+.aboutUs{
+    width: 200px;
+}
+.ques{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.chat{
+    width: 100%;
+    margin: 4rem auto;
+    background-color: rgba(193, 49, 49, 0.926);
+    height: 100vh;
+    overflow-y: scroll;
+    position: relative;
+}
+.process{
+    height: 80%;
+    margin: 2rem auto;
+    position: relative;
+    width: 80%;
+}
+.message{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    margin: 2rem;
+height: max-content;
+}
+.chat input[type='text']{
+    
+    border-bottom-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.827);
+    border-radius: 16px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: 80px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 96%;
+    max-width: 1200px;
+    will-change: transform;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    text-align: start;
+    color: rgba(16, 15, 15, 0.75);
+    text-decoration: none;
+    text-transform: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.reply{
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 0;
+    margin-top: 12rem;
+    max-width: 200px;
+    height: max-content;
+
+}
+.button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+}
 @media (min-width: 810px) and (max-width: 1199px) {
     .container {
         max-width: 600px;
@@ -308,6 +419,16 @@ flex-direction: column;
 .generateButton{
     width: 80%;
 }
+.info{
+    flex-direction: column;
+    place-content: center;
+}
+.aboutUs{
+    text-align: center;
+}
+.socials{
+    width: 100%;
+}
     .header-title h1 {
         font-size: 50px;
     }
@@ -347,7 +468,29 @@ flex-direction: column;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
 }
+.history{
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.06);
+    box-shadow: 0px 1px 2px  rgba(252, 248, 248, 0.838);
+    padding: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+}
+.history span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+gap: 10px;
+}
+.arrow{
+    cursor: pointer;
+}
+.history img{
+    width: 20px;
+}
 @keyframes rotation {
     0% {
         transform: rotate(0deg);
