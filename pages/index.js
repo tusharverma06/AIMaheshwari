@@ -62,6 +62,7 @@ const Home = () => {
     <div className="root">
       <Head>
         <title>AI Maheshwari 🤖</title>
+  <link rel='icon' href='https://static.vecteezy.com/system/resources/previews/004/181/121/original/competence-motivation-gradient-icon-for-dark-theme-learning-new-skills-techniques-successfully-masters-tasks-thin-line-color-symbol-modern-style-pictogram-isolated-outline-drawing-vector.jpg' />
       </Head>
       <div className="container">
         <div className="header">
@@ -73,15 +74,15 @@ const Home = () => {
           </div>
         </div>
         <div className="prompt-container">
-          <input
-            type='text'
-            placeholder="Why do you need motivation?..."
-            className="prompt-box"
-            value={userInput}
-            onChange={onUserChangedText}
-            onKeyUp={(e) => {
-              e.key === 'Enter' && callGenerateEndpoint()
-            }}
+          <input 
+          type='text'
+          placeholder="Why do you need motivation?..." 
+          className="prompt-box" 
+          value={userInput}
+  onChange={onUserChangedText}
+onKeyUp={(e)=>{
+    e.key==='Enter' && callGenerateEndpoint()
+  }}
           />
           <button className="generateButton" onClick={callGenerateEndpoint}>    {isGenerating ? <span className="loader"></span> : 'Get Motivation'}
           </button>
