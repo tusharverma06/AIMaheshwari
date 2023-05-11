@@ -21,6 +21,7 @@ const generateAction = async (req, res) => {
 
 
   res.status(200).json({ output: basePromptOutput });
+  res.status(500).json({error: 'Internal server error'})
 };
 
 export default generateAction;
