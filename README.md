@@ -24,7 +24,6 @@ Here are some of the key features of this app:
 
 <li>Positive messaging: We believe in the power of positivity, and our app is designed to uplift and encourage you throughout the day.</li>
 
-<li>Continuous improvement: Our app uses machine learning algorithms to learn from your feedback and improve its motivational strategies over time.</li>
 </ul>
 Here's the link to it: 
-<a href='https://aimaheshwari.vercel.app/' > https://aimaheshwari.vercel.app/ </a>
+<a href='https://ai-maheshwari.tusharverma13.repl.co/' > https://ai-maheshwari.tusharverma13.repl.co/ </a>
